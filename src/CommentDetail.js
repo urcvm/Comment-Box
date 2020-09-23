@@ -2,6 +2,7 @@ import React from "react";
 import "./CommentDetail.css";
 
 function CommentDetail(props) {
+  console.log(props.date);
   return (
     <div className="com">
       <div className="ui comments">
@@ -12,14 +13,11 @@ function CommentDetail(props) {
           <div className="content">
             <a className="author">{props.name}</a>
             <div className="metadata">
-              <div className="date">2 days ago</div>
-              <div className="rating">
-                <i className="star icon"></i>5 Faves
+              <div className="date">
+                {new Date(props.date).toString().slice(0, 25)}
               </div>
             </div>
-            <div className="text">
-              Hey guys, I hope this example documentation.
-            </div>
+            <div className="text">{props.commentText}</div>
           </div>
         </div>
       </div>

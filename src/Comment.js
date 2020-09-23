@@ -7,34 +7,32 @@ import ApprovalCard from "./ApprovalCard";
 function Comment() {
   return (
     <div className="CommentBox">
+      <div>
+        <h1>Comment Box</h1>
+        <br></br>
+      </div>
       <ApprovalCard>
         <CommentDetail
           name={faker.name.firstName()}
           img={faker.image.avatar()}
+          commentText={faker.hacker.phrase()}
+          date={faker.date.past()}
         />
       </ApprovalCard>
       <ApprovalCard>
         <CommentDetail
           name={faker.name.firstName()}
           img={faker.image.avatar()}
+          commentText={faker.hacker.phrase()}
+          date={faker.date.past()}
         />
       </ApprovalCard>
       <ApprovalCard>
         <CommentDetail
           name={faker.name.firstName()}
           img={faker.image.avatar()}
-        />
-      </ApprovalCard>
-      <ApprovalCard>
-        <CommentDetail
-          name={faker.name.firstName()}
-          img={faker.image.avatar()}
-        />
-      </ApprovalCard>
-      <ApprovalCard>
-        <CommentDetail
-          name={faker.name.firstName()}
-          img={faker.image.avatar()}
+          commentText={faker.hacker.phrase()}
+          date={faker.date.past()}
         />
       </ApprovalCard>
     </div>
