@@ -11,7 +11,7 @@
 * Used Faker package for random fake data.
 
 # This is how comment box looks
-![Screenshot of comment box](https://octodex.github.com/images/yaktocat.png)
+![Screenshot of comment box](https://github.com/urcvm/Comment-Box/blob/master/Comment%20Box.JPG)
 
 
 
