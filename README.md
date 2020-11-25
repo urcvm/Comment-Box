@@ -1,3 +1,20 @@
+# Comment Box
+
+* This comment box made using React Component
+* Concepts covered in this micro project :-
+  1. Components
+  2. Nested Components
+  3. Passing Props
+  4. Passing components as Props
+  
+* Sementic ui is used for styling.
+* Used Faker package for random fake data.
+
+# This is how comment box looks
+![Screenshot of comment box](https://octodex.github.com/images/yaktocat.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
